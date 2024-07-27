@@ -1,0 +1,370 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    @font-face {
+        font-family: Roboto;
+        src: url(Roboto-Black.ttf);
+    }
+    
+    @font-face {
+        font-family: Montserrat ;
+        src: url(Montserrat-Italic-VariableFont_wght.ttf);
+    }
+    
+    @font-face {
+        font-family: PlayStation;
+        src: url(Play-BWXRG.ttf);
+    }
+    
+    @font-face {
+        font-family: PlayStation2;
+        src: url(playstation_font.ttf);
+    }
+    
+    @font-face {
+        font-family: Specimen;
+        src: url(Lato-Regular.ttf);
+    }
+    body {
+    
+    background-color: white;
+    
+    }
+    
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+    
+        position: sticky;
+        flex-direction: column;
+        z-index: 1000;
+        top: 0;
+        
+    }
+    
+    
+    nav {
+    
+     
+     display: flex;
+     background-color: white;
+     align-items: center;
+     justify-content: space-around;
+    
+    }
+    
+    
+    .logo-brand  {
+    
+        position: relative;
+        right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    
+    }
+    
+    .logo-brand h5 {
+        position: absolute;
+        font-family: PlayStation;
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+    
+    .logo-brand img {
+    
+        width: 50px;
+        height: 50px;
+        margin-right: 12rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .navbar-links {
+        display: flex;
+    
+    }
+    
+    .navbar-links a {
+    
+        color: black;
+        text-decoration: none;
+        font-family: Specimen;
+        font-size: 15px;
+        margin: 0 40px ;
+    
+    }
+    
+    .button-link button {
+    
+    background-color: rgb(70, 70, 248);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-family: Roboto;
+    
+    
+    }
+    
+    .button-link a {
+    
+    text-decoration: none;
+    color: white
+    
+    }
+    
+    .navbar-links a:hover {
+        color: rgb(99, 99, 223);
+    }
+    
+    .navbar-links li {
+    
+    list-style: none;
+    font-weight: 600;
+    
+    }
+
+    .nba2k-parent {
+
+    position: relative;
+
+    }
+
+    .nba2k-parent img {
+
+        width: 78.9rem;
+        height: 32.2rem;
+    }
+
+    .nba2k-child img {
+
+      position: absolute;
+      width: 120px;
+      height: 150px;
+      width: 18rem;
+     height: 10rem;
+     top: 3rem;
+     left: 9rem;
+
+    }
+
+    .nba2k-child h2 {
+
+        color: white;
+        font-size: 2rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        position: absolute;
+        top: 12rem;
+        left: 8.6rem;
+
+    }
+
+    .nba2k-child p {
+
+        color: whitesmoke;
+        font-family: sans-serif;
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        position: absolute;
+        top: 17rem;
+        left: 8.7rem;
+    
+
+    }
+
+    .nba2k-child button {
+
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 10px 30px 10px 30px;
+        position: absolute;
+        bottom: 66px;
+        left: 9rem;
+        cursor: pointer;
+
+    }
+
+    .nba2k-child a {
+
+        font-family: Specimen;
+        text-decoration: none;
+        
+    }
+
+    .accessibilty-container {
+
+      position: relative;
+
+    }
+
+
+    .accessibilty-container img {
+
+        width: 78.9rem;
+        height: 38rem;
+
+    }
+
+
+    .accessibilty-children {
+
+       position: absolute;
+       top: 133px;
+       left: 239px;
+       width: 455px;
+       height: 287px;
+       background-color: black;
+
+
+
+    }
+
+    .accessibilty-children h2 {
+
+      position: absolute;
+      font-family: Specimen;
+      color: white;
+      font-weight: 200;
+      font-size: 40px;
+      top: 23px;
+      left: 12px;
+    
+
+
+    }
+
+    .accessibilty-children p {
+
+      position: absolute;
+      color: rgb(139, 139, 139);
+      font-family: sans-serif;
+      font-size: 25px;
+      top: 142px;
+      left: 10px;
+}
+    
+
+.playstationworks-container {
+
+    position: relative;
+    background-color: rgb(211, 206, 206);
+    height: 585px;
+}
+
+.playstationworks-children h3 {
+
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  position: absolute;
+  top: 5rem;
+  left: 17rem;
+
+}
+
+.playstationworks-children video {
+
+position: absolute;
+top: 11rem;
+left: 20rem;
+width: 611px;
+height: 344px;
+box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.ConsoleAccessibilty-container {
+
+height: 800px;
+position: relative;
+
+}
+
+.ConsoleAccessibilty-container img {
+
+    width: 78.9rem;
+    height: 50rem;
+
+}
+
+.console-children img {
+
+position: absolute;
+top: 9rem;
+left: 36rem;
+height: 22rem;
+width: 32rem;
+
+}
+
+.console-children h2 {
+
+position: absolute;
+top: 124px;
+left: 211px;
+font-family: Specimen;
+font-weight: 200;
+font-size: 50px;
+color: rgb(96, 96, 255);
+
+}
+
+.console-children p {
+
+font-family: Specimen;
+font-size: 25px;
+color: rgb(86, 84, 84);
+font-weight: 200;
+position: absolute;
+top: 20rem;
+left: 13rem; 
+
+
+}
+
+.console-children a {
+
+    text-decoration: none;
+    
+}
+
+
+
+.console-children button {
+
+  color: white;
+  font-family: sans-serif;
+  border-radius: 20px;
+  background-color: rgb(75, 75, 231);
+  padding: 10px;
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 10rem;
+  left: 13rem;
+  cursor: pointer;
+
+}
+
+.console-children button:hover {
+
+    transform: scale(1.15);
+
+}
