@@ -327,7 +327,7 @@ color: rgb(96, 96, 255);
 
 }
 
-.console-children p {
+.paragraph-class1 {
 
 font-family: Specimen;
 font-size: 25px;
@@ -336,6 +336,18 @@ font-weight: 200;
 position: absolute;
 top: 20rem;
 left: 13rem; 
+
+}
+
+.paragraph-class2 {
+
+color: black;
+font-family: sans-serif;
+position: absolute;
+bottom: 6rem;
+left: 13rem;
+font-size: 15px;
+font-weight: 200;
 
 
 }
@@ -368,3 +380,155 @@ left: 13rem;
     transform: scale(1.15);
 
 }
+
+
+.settings-container {
+
+    position: relative;
+    height: 900px;
+  
+}
+
+ .image1 {
+
+    width: 38rem;
+    height: 22rem;
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+
+ }
+
+ .image2 {
+
+  width:12rem ;
+  height:11rem ;
+  position: absolute;
+  width: 10rem;
+  height: 5rem;
+  top: 3rem;
+  right: 24rem;
+
+
+ }
+
+ .settings-child h4 {
+
+   font-size: 20px;
+   font-family: Specimen;
+   color: black;
+   position: absolute;
+   right: 0;
+   font-weight: 200;
+   right: 23.6rem;
+   top: 9rem;
+
+ }
+
+ .settingsp-class1 {
+
+  font-family: Specimen;
+  font-size: 18px;
+  color: black;
+  position: absolute;
+  right: 9rem;
+  top: 12rem;
+
+ }
+
+
+.settingsp-class2 {
+
+font-family: Specimen;
+font-size: 18px;
+font-weight: 300;
+color: black;
+position: absolute;
+left: 12rem;
+bottom: 12.3rem;
+
+
+
+
+}
+
+ .settings-btn1 {
+
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    background-color: rgb(75, 75, 231);
+    padding: 10px;
+    position: absolute;
+    right: 26rem;
+    top: 20rem;
+    transition: all 0.3s;
+    cursor: pointer;
+
+
+ }
+
+
+ .settings-btn2 {
+
+  color: white;
+  font-family: sans-serif;
+  border-radius: 20px;
+  background-color:rgb(75, 75, 231) ;
+  padding: 10px;
+  position: absolute;
+  left: 12rem;
+  bottom: 7rem;
+  transition: all 0.3s;
+  cursor: pointer;
+
+ }
+
+ 
+ .settings-child button:hover {
+
+    transform: scale(1.15);
+
+ }
+
+
+ .settings-child a {
+
+    text-decoration: none;
+ }
+
+
+ .image3 {
+
+    width: 38rem;
+    height: 22rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 6rem;
+
+ }
+
+ .image4 {
+
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    left: 12rem;
+    bottom: 22rem;
+
+ }
+
+ .settings-child h5 {
+
+  position: absolute;
+  left: 12rem;
+  bottom: 19rem;
+  font-family: Specimen;
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
+
+
+
+
+ }
